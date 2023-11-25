@@ -9,6 +9,7 @@ import { FiShoppingBag } from "react-icons/fi";
 import { CiSearch } from "react-icons/ci";
 import { LuUser2 } from "react-icons/lu";
 import Image from "next/image"
+import MenuPage from "./MenuPage";
 const Navbar=()=>{
 
     const user=false
@@ -30,7 +31,7 @@ const Navbar=()=>{
         </div>
     {/* MobileMenu */}
     <div className="md:hidden">
-        {/* <MenuPage/> */}
+        <MenuPage/>
     </div>
     {/* Right Links */}
     <div className="hidden md:flex text-white gap-4 items-center justify-end flex-1">
